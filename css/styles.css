@@ -22,29 +22,17 @@ nav ul {
     margin-right: 3em;
     margin-top: 0;
     margin-bottom: 1em; 
+    background-color: yellow;
+    padding: 2em;
 }
-
-
-
-
-
-
-
-
-
-
 
 nav ul li {
     background-color: hotpink;
     padding: 2em;
+    border: 5px
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    padding-left: 3em;
-    padding-right: 3em;
-}
+
 
 
 
