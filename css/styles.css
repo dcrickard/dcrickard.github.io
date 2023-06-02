@@ -2,49 +2,28 @@ body {
     background-color: aqua;
 }
 
-font {
-    font-style: normal;
-    font-size: larger;
-}
-
-h1 {
-    color: black;
-}
-
-nav {
-    background-color: yellow;
-    border: solid;
-    border: 2em
-}
-
-
-nav ul {
-    display: flex;
-    justify-self: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 3em;
-    margin-right: 3em;
-    margin-top: 0;
-    margin-bottom: 1em; 
-    background-color: yellow;
-    padding: 2em;
-}
-
-nav ul li {
-    background-color: hotpink;
-    padding: 2em;
-    border: 5px
-}
-
-
-
-
-
-
-
-
-
-
-
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 1fr 1fr;
+    gap: 4px 4px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "Photo Header Header"
+      "Photo About-Me About-Me"
+      "Projects Projects Links";
+  }
+  
+  .Links {
+    justify-self: stretch;
+    grid-area: Links;
+  }
+  
+  .Projects { grid-area: Projects; }
+  
+  .About-Me { grid-area: About-Me; }
+  
+  .Photo { grid-area: Photo; }
+  
+  .Header { grid-area: Header; }
+  
 
