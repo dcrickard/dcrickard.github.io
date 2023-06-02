@@ -57,13 +57,9 @@ Portfolio h1 {
 }
 
 projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 3em;
-    margin-right: 4em;
-}
+    display: grid;
+    grid-template-columns: row;
+    }
 
 footer {
     padding-top: 3em;
