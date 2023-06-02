@@ -1,5 +1,5 @@
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: 10;
     flex-wrap: wrap;
 }
@@ -33,9 +33,9 @@ section {
     margin-bottom: 1em;
 }
 
-MyInfo {
-    display: flex;
-    flex-direction: column;
+Contact Information {
+    display: grid;
+    flex-direction: row;
     max-width: 100%;
     margin-left: 2em;
 }
@@ -47,10 +47,6 @@ Portfolio {
 
 Portfolio h1 {
     text-align: right;
-    padding-right: 2rem;
-}
-.GitLink {
-    text-align: end;
     padding-right: 2rem;
 }
 
