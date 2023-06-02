@@ -2,25 +2,8 @@ body {
     background-color: aqua;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 h1 {
     color: black;
-}
-
-h2 {color: black;}
-
-#logo { 
-    margin-left: 1em;
-    margin-top: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-bottom: 1em;
 }
 
 nav {
@@ -38,8 +21,18 @@ nav ul {
     gap: 3em;
     margin-right: 3em;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1em; 
 }
+
+
+
+
+
+
+
+
+
+
 
 nav ul li {
     background-color: hotpink;
@@ -53,49 +46,10 @@ main {
     padding-right: 3em;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-bottom: 1em;
 
-}
 
-#MyInfo {
-    display: flex;
-    flex-direction: column;
-    max-width: 80%;
-    margin-left: 2em;
-}
 
-#Portfolio {
-    display: flex;
-    flex-direction: column;
-}
 
-#Portfolio h2 {
-    text-align: right;
-    padding-right: 2rem;
-}
-.GitLink {
-    text-align: end;
-    padding-right: 2rem;
-}
-
-#projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 3em;
-    margin-right: 4em;
-}
-
-footer {
-    padding-top: 3em;
-    margin-bottom: 4em;
-}
 
 
 
