@@ -1,6 +1,6 @@
 header {
     display: flex;
-    grid-template-columns: 10;
+    grid-template-columns: 5fr;
     flex-wrap: wrap;
 }
 
