@@ -38,6 +38,11 @@ Portfolio {
     flex-direction: column;
 }
 
+.GitLink{
+    text-align: end;
+    padding-right: 3rem;
+}
+
 h1 {
     text-align: right;
     padding-right: 2rem;
