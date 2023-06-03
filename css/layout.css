@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-left: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+Portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+h2 {
+    text-align: right;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin-right: 4em;
+}
+
+.project {
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    padding-top: 3em;
+    margin-bottom: 4em;
+}
